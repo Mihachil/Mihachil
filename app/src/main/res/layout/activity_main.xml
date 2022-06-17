@@ -26,6 +26,8 @@
             android:id="@+id/true_butthon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
             android:text="@string/false_buthon"
             android:visibility="visible"
             tools:visibility="visible" />
@@ -34,6 +36,10 @@
             android:id="@+id/false_butthon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="-60dp"
+            android:layout_marginTop="-50dp"
+
+
             android:text="@string/true_buthon" />
 
     </LinearLayout>
